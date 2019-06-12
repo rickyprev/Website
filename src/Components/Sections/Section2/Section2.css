@@ -1,6 +1,14 @@
 .Section2 {
 
     border-style: solid;
+    border-color: green;
+    height: 100vh;
+
+}
+
+.Section2 .sectionTwoBackground {
+
+    border-style: solid;
     border-color: black;
     height: 80vh;
     background-image: url("../../../../Assets/motherboard.jpg");
@@ -11,16 +19,44 @@
     justify-content: center;
 }
 
-.Section2 .whiteBox {
+.Section2 .sectionTwoBackground .whiteBox {
     border-style: solid;
     background-color: white;
     height: 600px;
     margin-left: 5%;
     margin-right: 5%;
+
     border-radius: 15px;
     border-width: thick;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-content: center;
+
+}
+
+.Section2 .sectionTwoBackground .sectionTwoTitle {
+
+    color: white;
+    font-size: 70px;
+    margin-top: 5px;
+    text-shadow: #000 7px 7px 7px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Section2 .sectionTwoText {
+
+    height: 20vh;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Section2 .sectionTwoPText {
+
+    margin: 0;
+
 }
