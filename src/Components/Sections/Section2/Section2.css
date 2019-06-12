@@ -1,0 +1,26 @@
+.Section2 {
+
+    border-style: solid;
+    border-color: black;
+    height: 80vh;
+    background-image: url("../../../../Assets/motherboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Section2 .whiteBox {
+    border-style: solid;
+    background-color: white;
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    border-width: thick;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+}
