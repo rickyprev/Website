@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar/NavBar";
 import Section2 from "./Components/Sections/Section2/Section2";
+import Section3 from "./Components/Sections/Section3/Section3";
+
 import PSU from "../Assets/psuLogo.png";
 
 class App extends Component {
@@ -39,7 +41,10 @@ class App extends Component {
         <div className="Section2">
         <Section2></Section2>
 
-          
+        </div>
+        <div className="Section3">
+        <Section3></Section3>
+
         </div>
       </div>
     );

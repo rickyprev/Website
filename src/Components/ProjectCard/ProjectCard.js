@@ -17,17 +17,13 @@ class ProjectCard extends Component{
 	
 };
 
-
-	
-
 	render(){
 		
 		return(
 			<div className="projectCardWrapper">
 			<div className="projectCardImage" >
 				{
-				<img classname={this.props.url} src={this.props.logo}  alt="empty" />
-
+				<img classname={this.props.url} src={this.props.logo} height={this.props.size} alt="empty" />
 				
 				}
 				{/* <p>{this.props.url}</p> */}
