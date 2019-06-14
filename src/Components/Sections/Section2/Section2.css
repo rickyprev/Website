@@ -1,14 +1,14 @@
 .Section2 {
 
-    border-style: solid;
+    /* border-style: solid; */
     height: 100vh;
 
 }
 
 .Section2 .sectionTwoBackground {
 
-    border-style: solid;
-    border-color: black;
+    /* border-style: solid; */
+    /* border-color: black; */
     height: 80vh;
     background-image: url("../../../../Assets/motherboard.jpg");
     background-repeat: no-repeat;

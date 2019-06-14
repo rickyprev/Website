@@ -1,8 +1,7 @@
   
 import React, { Component} from 'react';
 import './ProjectCard.css';
-import Shuttler from "../../../Assets/shuttlerLogo.png";
-import DeliverIt from "../../../Assets/deliverItLogo.png";
+
 
 
 class ProjectCard extends Component{
@@ -26,7 +25,6 @@ class ProjectCard extends Component{
 				<img classname={this.props.url} src={this.props.logo} height={this.props.size} alt="empty" />
 				
 				}
-				{/* <p>{this.props.url}</p> */}
 			</div>
 	
 		

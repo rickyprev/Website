@@ -1,10 +1,10 @@
 .App {
   text-align: center;
   height: 400vh;
+  overflow-x: hidden;
+
 }
 
-.app .secondPage {
-  height: 100vh;
-  border-style: solid;
-  border-color: blue;
+.App .Sections {
+  margin-left: 11.5%;
 }

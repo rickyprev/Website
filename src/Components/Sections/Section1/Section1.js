@@ -2,6 +2,7 @@
 import React, { Component, Fragment } from 'react';
 import './Section1.css';
 import PSU from "../../../../Assets/psuLogo.png";
+import Navbar from "../../Navbar/NavBar";
 
 class Section2 extends Component {
     constructor(props) {
@@ -15,14 +16,7 @@ class Section2 extends Component {
         return (
                 <div className="Section1Wrapper">
             <div className="header">
-    
-              <div className="nameIntro">
-                <h2>
-                  Hello, I'm <span>Keith Prevost</span>
-                </h2>
-    
-                <h2>I'm a Software Developer</h2>
-              </div>
+         
            
             </div>
              <div className="Section1Text">

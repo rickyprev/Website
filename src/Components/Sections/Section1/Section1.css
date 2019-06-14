@@ -1,15 +1,13 @@
 .Section1Wrapper .header {
     background-color: #222;
     height: 65vh;
-    padding: 20px;
     color: white;
     background-image: url("../../../../Assets/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+
 }
 
 .Section1Wrapper .header .nameIntro {
@@ -51,3 +49,6 @@
     justify-content: center;
     margin-right: auto;
 }
+
+/*-------------Navbar---------------------- */
+.header .navBar {}
