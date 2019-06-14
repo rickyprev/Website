@@ -1,20 +1,23 @@
 import React, { Component } from "react";
 import "./App.css";
-import Navbar from "./Components/Navbar/NavBar";
+import Section1 from "./Components/Sections/Section1/Section1";
 import Section2 from "./Components/Sections/Section2/Section2";
 import Section3 from "./Components/Sections/Section3/Section3";
-
-import PSU from "../Assets/psuLogo.png";
+// import Navbar from "./Components/Navbar/NavBar";
+// import PSU from "../Assets/psuLogo.png";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
+        {/* <div className="App-header">
+        <Navbar></Navbar>
+
           <div className="nameIntro">
             <h2>
               Hello, I'm <span>Keith Prevost</span>
             </h2>
+
             <h2>I'm a Software Developer</h2>
           </div>
        
@@ -36,8 +39,11 @@ class App extends Component {
       <img src={PSU} className="sunyLogo" width="500px"></img>
       </a>
         </div>
+        </div> */}
+        <div className="Section1">
+        <Section1></Section1>
+
         </div>
-     
         <div className="Section2">
         <Section2></Section2>
 

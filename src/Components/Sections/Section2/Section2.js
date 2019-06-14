@@ -18,7 +18,7 @@ class Section2 extends Component {
 			{
 				title: "Shuttler App",
 				logo: Shuttler,
-				color: "#E50914",
+				color: "#f2014b",
 				size:"250px",
 				link: "https://www.psushuttle.com/",
 				description:
@@ -27,7 +27,7 @@ class Section2 extends Component {
 			{
 				title: "DeliverIt App",
 				logo: DeliverIt,
-				color: "#E50914",
+				color: "#f9b448",
 				size:"250px",
 				link: "https://github.com/PSUCoders/DeliverIt",
 				description:
@@ -36,7 +36,7 @@ class Section2 extends Component {
 			{
 				title: "FindIt App",
 				logo: FindIt,
-				color: "#E50914",
+				color: "#1d9f9e",
 				size:"250px",
 				link: "http://finditapp.biz/",
 				description:
