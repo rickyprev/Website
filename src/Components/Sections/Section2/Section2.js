@@ -51,7 +51,6 @@ class Section2 extends Component {
                 <h1 className="sectionTwoTitle">Portfolio</h1>
                     <div className="whiteBox">
                         
-                            {/* <ProjectCard classname={projects.title} src={projects.source}  imageUrl={projects.source} description= "Web App" alt="empty" /> */}
 
                         {projects.map( (item,index)=>(
 

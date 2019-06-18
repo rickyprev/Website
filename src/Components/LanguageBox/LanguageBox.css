@@ -1,0 +1,18 @@
+.LanguageBoxWrapper {
+
+    border-style: solid;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.LanguageBoxWrapper .LanguageBoxImage {
+    border-color: green;
+    border-style: solid;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
